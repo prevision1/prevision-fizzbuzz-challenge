@@ -1,5 +1,5 @@
-function fizz_buzz(number) {
-    return "";
+function isPrime(number) {
+    return false;
 }
 
-module.exports = fizz_buzz;
+module.exports = isPrime;

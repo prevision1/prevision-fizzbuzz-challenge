@@ -1,8 +1,8 @@
-const fizz_buzz = require('./index');
+const isPrime = require('./index');
 
-describe("FizzBuzz", () => {
+describe("isPrime", () => {
     test('test', () => {
-      expect(fizz_buzz()).toBe('');
+      expect(isPrime()).toBe(false);
     });
 
 });
